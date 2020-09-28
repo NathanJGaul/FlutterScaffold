@@ -5,7 +5,7 @@ import 'package:english_words/english_words.dart';
 import 'package:myapp/app_scaffold.dart';
 
 class RandomWords extends StatefulWidget {
-  static String route = "random_words";
+  static const String route = "random_words";
 
   @override
   _RandomWordsState createState() => _RandomWordsState();

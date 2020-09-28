@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/routes.dart';
+import 'package:myapp/screens/flash_cards.dart';
 
 import 'package:myapp/screens/random_words.dart';
 import 'package:myapp/screens/second_route.dart';
@@ -42,8 +43,11 @@ class AppDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: Icon(Icons.settings),
-            title: Text('Settings'),
+            leading: Icon(Icons.view_agenda),
+            title: Text('Flash Cards'),
+            onTap: () {
+              Routes.changeRoute(context, FlashCards.route);
+            }
           ),
         ],
       ),

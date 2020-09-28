@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/app_scaffold.dart';
 
 class SecondRoute extends StatelessWidget {
-  static String route = "second_route";
+  static const String route = "second_route";
 
   @override
   Widget build(BuildContext context) {

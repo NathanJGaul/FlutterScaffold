@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/screens/flash_cards.dart';
 
 import 'package:myapp/screens/random_words.dart';
 import 'package:myapp/screens/second_route.dart';
@@ -10,6 +11,7 @@ class Routes {
     return {
       RandomWords.route: (context) => RandomWords(),
       SecondRoute.route: (context) => SecondRoute(),
+      FlashCards.route: (context) => FlashCards(),
     };
   }
 
